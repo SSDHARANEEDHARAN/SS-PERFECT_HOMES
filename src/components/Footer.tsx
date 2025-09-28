@@ -33,7 +33,6 @@ const Footer = () => {
     "Premium Doors",
     "Smart Kitchens", 
     "Interior Design",
-    "AI Automation",
     "Smart Home Integration",
     "Web Development"
   ];
@@ -96,7 +95,6 @@ const Footer = () => {
                     case 'Premium Doors': return '/main-doors';
                     case 'Smart Kitchens': return '/smart-kitchen';
                     case 'Interior Design': return '/interior-design';
-                    case 'AI Automation': return '/ai-automation';
                     case 'Smart Home Integration': return '/services/smart-home';
                     case 'Web Development': return '/web-development';
                     default: return '/services';
