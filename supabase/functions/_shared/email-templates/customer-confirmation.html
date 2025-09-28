@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Your Enquiry - Perfect Home's Interiors & Solutions</title>
+    <style>
+        /* Reset styles for email clients */
+        body, table, td, p, a, li, blockquote {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        table, td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f5f5f5; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    
+    <!-- Main Container -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
+        <tr>
+            <td style="padding: 20px 0;">
+                
+                <!-- Email Content -->
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 600px; margin: 0 auto; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+                    
+                    <!-- Header Section -->
+                    <tr>
+                        <td style="padding: 0;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                    <td style="background: linear-gradient(135deg, #1e3a8a, #1e40af); padding: 40px 20px; text-align: center; border-radius: 8px 8px 0 0;">
+                                        
+                                        <!-- Company Header -->
+                                        <h1 style="color: #ffffff; margin: 0 0 8px 0; font-size: 28px; font-weight: 700; font-family: 'Segoe UI', Arial, sans-serif; letter-spacing: -0.5px;">Perfect Home's Interiors & Solutions</h1>
+                                        
+                                        <!-- Tagline -->
+                                        <p style="color: #e0e7ff; margin: 0 0 24px 0; font-size: 16px; font-family: 'Segoe UI', Arial, sans-serif;">Professional Interiors & Smart Solutions</p>
+                                        
+                                        <!-- Thank You Message -->
+                                        <div style="background-color: rgba(255,255,255,0.1); padding: 16px 32px; border-radius: 6px; display: inline-block;">
+                                            <h2 style="color: #ffffff; margin: 0; font-size: 20px; font-weight: 600; font-family: 'Segoe UI', Arial, sans-serif;">Thank You, {{CUSTOMER_NAME}}</h2>
+                                        </div>
+                                        
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Confirmation Message -->
+                    <tr>
+                        <td style="padding: 20px;">
+                            <div style="background-color: #f0fdf4; padding: 24px; border-radius: 8px; margin-bottom: 24px; border-left: 4px solid #16a34a;">
+                                
+                                <h3 style="color: #15803d; margin: 0 0 12px 0; font-size: 20px; font-weight: 600; font-family: 'Segoe UI', Arial, sans-serif;">Enquiry Confirmation</h3>
+                                
+                                <p style="color: #374151; line-height: 1.6; margin: 0; font-family: 'Segoe UI', Arial, sans-serif;">
+                                    Thank you for your interest in our <strong>{{SERVICE_TYPE}}</strong> services. We have successfully received your enquiry and our professional team will contact you within 24 hours to discuss your requirements and provide detailed information.
+                                </p>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <!-- Product/Service Section (if applicable) -->
+                    <tr>
+                        <td style="padding: 0 20px 20px 20px;">
+                            {{PRODUCT_SECTION}}
+                        </td>
+                    </tr>
+                    
+                    <!-- Your Enquiry Details -->
+                    <tr>
+                        <td style="padding: 0 20px 20px 20px;">
+                            <div style="background-color: #f8fafc; padding: 24px; border-radius: 8px; border: 1px solid #e2e8f0;">
+                                
+                                <h3 style="color: #1e293b; margin: 0 0 16px 0; font-size: 18px; font-weight: 600; font-family: 'Segoe UI', Arial, sans-serif; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px;">Enquiry Summary</h3>
+                                
+                                <!-- Details Table -->
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; background-color: #ffffff; border-radius: 6px; overflow: hidden;">
+                                    <tr>
+                                        <td style="padding: 14px 16px; border-bottom: 1px solid #f1f5f9; font-weight: 600; color: #334155; width: 35%; font-family: 'Segoe UI', Arial, sans-serif; background-color: #f8fafc;">Service Category</td>
+                                        <td style="padding: 14px 16px; border-bottom: 1px solid #f1f5f9; color: #475569; font-family: 'Segoe UI', Arial, sans-serif;">{{SERVICE_TYPE}}</td>
+                                    </tr>
+                                    {{PRODUCT_NAME_ROW}}
+                                    <tr>
+                                        <td style="padding: 14px 16px; border-bottom: 1px solid #f1f5f9; font-weight: 600; color: #334155; font-family: 'Segoe UI', Arial, sans-serif; background-color: #f8fafc;">Contact Number</td>
+                                        <td style="padding: 14px 16px; border-bottom: 1px solid #f1f5f9; color: #475569; font-family: 'Segoe UI', Arial, sans-serif;">{{CUSTOMER_PHONE}}</td>
+                                    </tr>
+                                    {{ADDRESS_ROW}}
+                                    <tr>
+                                        <td style="padding: 14px 16px; font-weight: 600; color: #334155; font-family: 'Segoe UI', Arial, sans-serif; background-color: #f8fafc;">Reference Number</td>
+                                        <td style="padding: 14px 16px; color: #475569; font-family: 'Segoe UI', Arial, sans-serif; font-weight: 600;">{{ENQUIRY_ID}}</td>
+                                    </tr>
+                                </table>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <!-- What Happens Next -->
+                    <tr>
+                        <td style="padding: 0 20px 20px 20px;">
+                            <div style="background-color: #f0fdf4; border-left: 4px solid #16a34a; padding: 24px; border-radius: 6px;">
+                                
+                                <h3 style="color: #15803d; margin: 0 0 16px 0; font-size: 18px; font-weight: 600; font-family: 'Segoe UI', Arial, sans-serif;">Next Steps</h3>
+                                
+                                <div style="color: #374151; line-height: 1.6; font-family: 'Segoe UI', Arial, sans-serif;">
+                                    <p style="margin: 0 0 12px 0;">• Our professional team will review your project requirements</p>
+                                    <p style="margin: 0 0 12px 0;">• We will contact you within 24 hours to discuss your specific needs</p>
+                                    <p style="margin: 0 0 12px 0;">• Schedule a consultation at your convenience</p>
+                                    <p style="margin: 0 0 12px 0;">• Receive a detailed proposal and customized solution</p>
+                                    <p style="margin: 0;">• Begin your project with our expert craftsmanship</p>
+                                </div>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <!-- Contact Information -->
+                    <tr>
+                        <td style="padding: 0 20px 20px 20px;">
+                            <div style="background-color: #fef7f0; border-left: 4px solid #f59e0b; padding: 24px; border-radius: 6px;">
+                                
+                                <h3 style="color: #92400e; margin: 0 0 16px 0; font-size: 18px; font-weight: 600; font-family: 'Segoe UI', Arial, sans-serif;">Contact Information</h3>
+                                
+                                <p style="color: #374151; margin: 0 0 16px 0; font-family: 'Segoe UI', Arial, sans-serif;">For immediate assistance or questions regarding your enquiry:</p>
+                                
+                                <div style="background-color: #ffffff; padding: 20px; border-radius: 6px; border: 1px solid #fed7aa;">
+                                    <p style="color: #92400e; font-size: 18px; font-weight: 600; margin: 0 0 8px 0; font-family: 'Segoe UI', Arial, sans-serif;">
+                                        +91 8870086023 | +91 9944864216
+                                    </p>
+                                    <p style="color: #6b7280; margin: 0; font-size: 14px; font-family: 'Segoe UI', Arial, sans-serif;">Available Monday-Friday: 8:00 AM - 6:00 PM | Saturday: 9:00 AM - 4:00 PM</p>
+                                </div>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <!-- Footer -->
+                    <tr>
+                        <td style="padding: 20px;">
+                            <div style="text-align: center; background-color: #f8fafc; padding: 24px; border-radius: 6px; border-top: 1px solid #e2e8f0;">
+                                
+                                <!-- Company Info -->
+                                <p style="color: #64748b; margin: 0 0 8px 0; font-size: 14px; font-family: 'Segoe UI', Arial, sans-serif;">Best regards,</p>
+                                <p style="color: #1e293b; margin: 0 0 4px 0; font-size: 16px; font-weight: 600; font-family: 'Segoe UI', Arial, sans-serif;">Perfect Home's Interiors & Solutions Team</p>
+                                <p style="color: #64748b; margin: 0; font-size: 13px; font-family: 'Segoe UI', Arial, sans-serif;">Professional Interiors & Smart Solutions</p>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </table>
+                
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
